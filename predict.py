@@ -3,6 +3,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 import numpy as np
 
+#
 # Load your saved model
 model = load_model("eye_disease_model.keras")  # or your HDF5 file
 
